@@ -1,0 +1,24 @@
+.header{
+    background-color: paleturquoise;
+    height: 75px;
+}
+
+.header-logo {
+    float: left;
+    font-size: larger;
+    padding: 20px 10px;
+}
+
+.header-list {
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+.dropdwon_menu{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
