@@ -1,11 +1,11 @@
 .header{
-    background-color: paleturquoise;
+    background-color: plum;
     height: 75px;
 }
 
 .header-logo {
     float: left;
-    font-size: larger;
+    font-size: 36px;
     padding: 20px 10px;
 }
 
@@ -15,10 +15,166 @@
 
 li {
     float: left;
+    list-style: none;
+    padding: 5px
 }
 
 .dropdwon_menu{
     position: absolute;
-    top: 5px;
+    top: 10px;
     right: 20px;
+}
+
+
+.footer-logo{
+    float: left;
+    padding: 30px 20px;
+}
+
+.row {
+    float: left;
+    padding:10px;
+}
+
+.footer {
+    background-color: plum;
+    height: 400px;
+}
+.footer-more {
+    padding:30px
+}
+.footer-more li {
+    float: left;
+    padding: 5px;
+}
+
+.footer-services{
+    float: left;
+    display: table;
+    width: 1px;
+    padding: 30px;
+}
+
+.footer-support{
+    float:left;
+    display: table;
+    width: 1px;
+    padding: 30px;
+   
+}
+
+.footer-connect{
+    display: table;
+    width: 1px;
+    padding: 30px;
+    
+}
+
+.row li {
+    padding: 8px;
+}
+
+.user-profile {
+    float: left;
+}
+.cleared-exercises {
+    float:left;
+}
+.lessons-completed{
+    float:left;
+}
+
+.separator{
+  border-left: 3px solid gray;
+  height: 80px;
+  float: left;
+}
+.pro-image {
+    float: left;
+}
+.profile-card {
+    
+    background-color: palegreen;
+    height: 80px;
+    padding: 33px 20px;
+    border : 5px solid white;
+    margin-left:100px;
+}
+.main {
+    background-color: blue;
+    height: 800px;
+    padding: 10px;
+}
+.dashboard-container {
+padding: 1px;
+background-color: gray;
+height: 700px;
+margin:20px;
+display: flex;
+}
+
+.dashboard-left-container {
+padding: 20px;
+float: left;
+height: 600px;
+background-color: brown;
+margin:30px;
+flex: 1;
+}
+.dashboard-right-container {
+    padding: 20px;
+    height: 600px;
+    background-color: turquoise;
+    margin-left: 0px;
+    margin-right: 0px ;
+    margin-top: 30px;
+}
+   
+
+
+.head-wrapper {
+    padding: 33px 20px;
+    margin-left: 200px;
+}
+.progress-image{
+    float: left;
+    padding-right: 30px;
+}
+.progress-card {
+    background-color: palegreen;
+    height: 80px;
+    padding: 33px 20px;
+    border : 5px solid white;
+    margin-left: 200px;  
+}
+.next-lesson{
+    float: left;
+}
+.props {
+    background-color: palegreen;
+    height: 80px;
+    padding-top: 2px;
+    border : 5px solid white;
+    margin-left: 200px; 
+    margin-top: 0px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #333;
+}
+
+.for-progress-lessons, .for-app-lessons {
+    float: left;
+}
+.web-lessons {
+    float: left;
+}
+
+.completed-lessons {
+    background-color: palegreen;
+    height: 80px;
+    padding-top: 2px;
+    border : 5px solid white;
+    margin-left: 200px; 
+    margin-top: 0px;
+    padding-bottom: 33px;
+
 }
